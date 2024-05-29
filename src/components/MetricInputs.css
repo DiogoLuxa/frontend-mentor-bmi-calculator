@@ -1,0 +1,36 @@
+.hero__metric-field__container {
+  position: relative;
+}
+.hero__metric-inputs {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.8rem;
+}
+.hero__metric-inputs__label span {
+  display: block;
+  font-size: 1.4rem;
+  color: #5e6e85;
+  margin-bottom: 1rem;
+}
+.hero__metric-inputs__measure {
+  position: absolute;
+  bottom: 2rem;
+  right: 2.3rem;
+  z-index: 1;
+  font-size: 2.4rem;
+  font-weight: 600;
+  color: #345ff6;
+}
+@media (min-width: 768px) {
+  .hero__metric-inputs {
+    flex-direction: row;
+    column-gap: 2.4rem;
+  }
+  /* .hero__metric-inputs__label span {
+    margin-bottom: 0;
+  }
+  .hero__metric-inputs__measure {
+    bottom: 1.6rem;
+    right: 3.2rem;
+  } */
+}

@@ -1,0 +1,53 @@
+.hero__unit-inputs {
+  display: flex;
+  align-items: center;
+  column-gap: 5.3rem;
+  margin-bottom: 2.5rem;
+}
+.hero__unit-inputs__option {
+  display: flex;
+  align-items: center;
+  gap: 1.8rem;
+}
+.hero__unit-inputs__option p {
+  font-weight: 600;
+}
+[class*="hero__unit-inputs__label"] {
+  display: inline-block;
+  width: 3.1rem;
+  height: 3.1rem;
+  border-radius: 50%;
+  border: 1px solid #d8e2e7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+[class*="hero__unit-inputs__label"] input {
+  display: none;
+}
+
+[class*="hero__unit-inputs__label"] .checkmark {
+  width: calc(100% - 1.6rem);
+  height: calc(100% - 1.6rem);
+  border-radius: 50%;
+  background-color: #345ff6;
+  display: none;
+  cursor: pointer;
+}
+[class*="hero__unit-inputs__label"] input:checked + .checkmark {
+  display: inline-block;
+}
+/* media */
+@media (min-width: 768px) {
+  .hero__unit-inputs {
+    column-gap: 22.4rem;
+    margin-bottom: 3.5rem;
+  }
+}
+@media (min-width: 1440px) {
+  .hero__unit-inputs {
+    column-gap: 16rem;
+    margin-bottom: 3.5rem;
+  }
+}

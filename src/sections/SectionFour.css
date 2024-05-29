@@ -1,0 +1,98 @@
+.section-four {
+  padding: 0 2.4rem;
+  margin-bottom: 9.6rem;
+  display: grid;
+  row-gap: 1.6rem;
+}
+.section-four__content {
+  text-align: center;
+}
+.section-four__title {
+  font-size: 3.2rem;
+  letter-spacing: calc(3.2rem * 0.05 * -1);
+  color: #253347;
+  margin-bottom: 3rem;
+}
+.section-four__description {
+  font-size: 1.6rem;
+  line-height: 150%;
+  font-weight: 400;
+  color: #5e6e85;
+  margin-bottom: 4rem;
+}
+
+@media (min-width: 768px) {
+  .section-four {
+    padding: 0 4rem;
+    grid-template-columns: repeat(8, 1fr);
+    column-gap: 1.6rem;
+    grid-template-areas:
+      "content content content content content content content content"
+      "card1 card1 card1 card1 card2 card2 card2 card2"
+      "card3 card3 card3 card3 card4 card4 card4 card4"
+      ". . card5 card5 card5 card5 . .";
+  }
+  .section-four__content {
+    grid-area: content;
+    text-align: left;
+  }
+  .card-limitations--0 {
+    grid-area: card1;
+  }
+  .card-limitations--1 {
+    grid-area: card2;
+  }
+  .card-limitations--2 {
+    grid-area: card3;
+  }
+  .card-limitations--3 {
+    grid-area: card4;
+  }
+  .card-limitations--4 {
+    grid-area: card5;
+    width: 36.5rem;
+  }
+}
+@media (min-width: 1440px) {
+  .section-four {
+    padding: 0 14rem;
+    grid-template-columns: repeat(8, 1fr);
+    column-gap: 1.6rem;
+    grid-template-areas:
+      "content content content content . card1 card1 card1"
+      ". . . . card2 card2 card3 card3"
+      ". . . card4 card4 card5 card5 . ";
+  }
+  .section-four__title {
+    font-size: 4.8rem;
+    width: 56.4rem;
+  }
+  .section-four__content {
+    grid-area: content;
+    text-align: left;
+  }
+  .card-limitations--0 {
+    grid-area: card1;
+    width: 36.5rem;
+    position: relative;
+    right: -9rem;
+  }
+  .card-limitations--1 {
+    grid-area: card2;
+    width: 36.5rem;
+    position: relative;
+    right: 2rem;
+  }
+  .card-limitations--2 {
+    grid-area: card3;
+    width: 36.5rem;
+  }
+  .card-limitations--3 {
+    grid-area: card4;
+    width: 36.5rem;
+  }
+  .card-limitations--4 {
+    grid-area: card5;
+    width: 36.5rem;
+  }
+}

@@ -1,0 +1,30 @@
+.hero__imperial-inputs {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.8rem;
+}
+.hero__imperial-inputs__label span {
+  display: block;
+  font-size: 1.4rem;
+  color: #5e6e85;
+  margin-bottom: 1rem;
+}
+.hero__imperial-inputs__container {
+  display: flex;
+  column-gap: 1rem;
+}
+
+.hero__imperial-input__container {
+  position: relative;
+  width: fit-content;
+}
+
+.hero__imperial-inputs__measure {
+  position: absolute;
+  bottom: 2rem;
+  right: 2.3rem;
+  z-index: 1;
+  font-size: 2.4rem;
+  font-weight: 600;
+  color: #345ff6;
+}

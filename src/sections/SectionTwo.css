@@ -1,0 +1,75 @@
+.section-two {
+  margin-bottom: 12.7rem;
+}
+.section-two__image {
+  width: 100%;
+  height: 35.4rem;
+  background-image: url(../assets/images/image-man-eating.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 4.5rem;
+}
+.section-two__text-container {
+  padding: 0 2.4rem;
+}
+.section-two__title {
+  font-size: 3.2rem;
+  font-weight: 600;
+  line-height: 110%;
+  letter-spacing: calc((3.2rem * 0.05) * -1);
+  color: #253347;
+  margin-bottom: 2.5rem;
+}
+.section-two__description {
+  font-weight: 400;
+  line-height: 150%;
+  color: #5e6e85;
+}
+@media (min-width: 768px) {
+  .section-two {
+    margin-bottom: 15rem;
+  }
+  .section-two__content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 2rem;
+  }
+  .section-two__image {
+    width: 100%;
+    height: 41.1rem;
+    background-position: -80px -5px;
+    background-size: cover;
+    margin-bottom: 0;
+  }
+  .section-two__text-container {
+    padding: 0;
+    padding-top: 3rem;
+    padding-right: 4.3rem;
+  }
+  .section-two__title {
+    margin-bottom: 3.5rem;
+  }
+}
+@media (min-width: 1440px) {
+  .section-two {
+    padding: 0 14rem;
+    margin-bottom: 16rem;
+  }
+  .section-two__image {
+    height: 53.3rem;
+    background-position: center;
+    background-size: contain;
+  }
+  .section-two__text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0;
+    padding-left: 10.5rem;
+    padding-bottom: 4rem;
+  }
+  .section-two__title {
+    font-size: 4.8rem;
+  }
+}

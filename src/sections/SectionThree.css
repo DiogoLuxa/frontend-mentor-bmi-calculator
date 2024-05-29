@@ -1,0 +1,25 @@
+.section-three {
+  padding: 0 2.4rem;
+  margin-bottom: 12rem;
+}
+.section-three__card-components {
+  display: flex;
+  flex-direction: column;
+  row-gap: 4rem;
+}
+@media (min-width: 768px) {
+  .section-three {
+    padding: 0 4rem;
+    margin-bottom: 15.5rem;
+  }
+}
+@media (min-width: 1440px) {
+  .section-three {
+    padding: 0 14rem;
+    margin-bottom: 22rem;
+  }
+  .section-three__card-components {
+    flex-direction: row;
+    column-gap: 3.2rem;
+  }
+}

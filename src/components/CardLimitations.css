@@ -1,0 +1,33 @@
+.card-limitations {
+  padding: 2.4rem;
+  box-shadow: 16px 32px 56px rgba(143, 174, 207, 0.25);
+  border-radius: 1.6rem;
+  margin-bottom: -1rem;
+}
+.card-limitations__content {
+  display: flex;
+  align-items: center;
+  column-gap: 1.6rem;
+  margin-bottom: 2rem;
+}
+.card-limitations__image {
+  height: 3.5rem;
+}
+.card-limitations__title {
+  font-size: 2rem;
+  letter-spacing: calc(2rem * 0.05 * -1);
+  font-weight: 600;
+  color: #253347;
+}
+.card-limitations__description {
+  font-size: 1.6rem;
+  line-height: 150%;
+  font-weight: 400;
+  color: #5e6e85;
+}
+@media (min-width: 768px) {
+  .card-limitations {
+    padding: 3.2rem;
+    margin-bottom: 0;
+  }
+}
