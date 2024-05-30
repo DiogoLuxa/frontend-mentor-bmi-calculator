@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/frontend-mentor-bmi-calculator/static/css/main.8cd80902.css",
+    "main.css": "/frontend-mentor-bmi-calculator/static/css/main.b270cdf7.css",
     "main.js": "/frontend-mentor-bmi-calculator/static/js/main.7b494a0c.js",
     "static/media/Rectangle - desktop.png": "/frontend-mentor-bmi-calculator/static/media/Rectangle - desktop.99880c0cf49375cd3f31.png",
     "static/media/Rectangle - tablet.png": "/frontend-mentor-bmi-calculator/static/media/Rectangle - tablet.99880c0cf49375cd3f31.png",
@@ -16,11 +16,11 @@
     "static/media/icon-pregnancy.svg": "/frontend-mentor-bmi-calculator/static/media/icon-pregnancy.e5614be8e3e12ec372a92524b785ce40.svg",
     "index.html": "/frontend-mentor-bmi-calculator/index.html",
     "static/media/icon-gender.svg": "/frontend-mentor-bmi-calculator/static/media/icon-gender.2eda6d92213b8841b857b6997bc9842e.svg",
-    "main.8cd80902.css.map": "/frontend-mentor-bmi-calculator/static/css/main.8cd80902.css.map",
+    "main.b270cdf7.css.map": "/frontend-mentor-bmi-calculator/static/css/main.b270cdf7.css.map",
     "main.7b494a0c.js.map": "/frontend-mentor-bmi-calculator/static/js/main.7b494a0c.js.map"
   },
   "entrypoints": [
-    "static/css/main.8cd80902.css",
+    "static/css/main.b270cdf7.css",
     "static/js/main.7b494a0c.js"
   ]
 }
