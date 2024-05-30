@@ -24,7 +24,7 @@
 .hero__bmi-result__title {
   font-size: 1.6rem;
   font-weight: 600;
-  margin-bottom: 0.8rem;
+  margin-bottom: 1.5rem;
 }
 .hero__bmi-result__value {
   font-size: 4.8rem;
@@ -70,6 +70,9 @@
   }
 }
 @media (min-width: 1440px) {
+  .hero__bmi-calculator {
+    margin-top: 1rem;
+  }
   .hero__bmi-result__value {
     font-size: 6.4rem;
   }
